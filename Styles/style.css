@@ -109,6 +109,7 @@ nav li a{
     border-radius: 10px;
     padding: 131px 157px;
     margin-top: 130px;
+   
 }
 
 /* main styles */
@@ -116,6 +117,12 @@ main{
     max-width: 1140px;
     margin: 0px auto;
     text-align: center;
+   
+}
+
+main section{
+    
+    
 }
 
 .item-description{
@@ -124,4 +131,34 @@ main{
 .about-items{
     display:flex;
     justify-content: space-around;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.skills{
+    margin-top: 130px;
+}
+
+.skill-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skill-description{
+    font-size: 16px;
+    color: #757575;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.skill-container{
+    background-color:rgb(190, 195, 195, 0.10);
+    text-align: left;
+    box-shadow: 0px 6px 50 opx, rgba(0, 0, 0, 0.98)
+    border-radius: 5px;
+    padding: 30px 30px 30px 30px;
+    justify-content: space-around; 
 }
