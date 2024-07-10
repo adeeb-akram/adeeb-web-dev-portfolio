@@ -67,6 +67,7 @@ nav li a{
     padding: 18px 35px;
     border-radius: 5px;
     font-size: 20px;
+    cursor: pointer;
 }
 /* banner styles */
 
@@ -161,4 +162,47 @@ main section{
     border-radius: 5px;
     padding: 30px 30px 30px 30px;
     justify-content: space-around; 
+}
+
+.section-title{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.subtitle{
+    font-size: 22px;
+    font-weight: bold;
+    color: #757575;
+}
+
+.experience{
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+    text-align: left;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+.resume-download{
+    margin: 50px;
 }
